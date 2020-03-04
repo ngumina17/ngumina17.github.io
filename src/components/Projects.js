@@ -22,6 +22,7 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
+          <div>
         <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle 
             style={{
@@ -41,9 +42,11 @@ class Projects extends Component {
             <Button colored link href='https://github.com/ngumina17/Project1Trivia'>View GitHub</Button>
           </CardActions>
         </Card>
+        </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
+          <div>
   <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle 
             style={{
@@ -53,7 +56,7 @@ class Projects extends Component {
                 "url(https://res.cloudinary.com/drz8x4anh/image/upload/v1583279880/Screen_Shot_2020-03-03_at_5.57.46_PM_orolrg.png) center / cover"
             }}
           >
-           Food Therapy
+    
           </CardTitle>
           <CardText>
                 An app using ReactJS pulling data from themealdb public API. Users are taken to the original source for the recipe. 
@@ -63,9 +66,11 @@ class Projects extends Component {
             <Button colored link href='https://github.com/ngumina17/project2'>View GitHub</Button>
           </CardActions>
         </Card>
+        </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
+          <div>
   <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle 
             style={{
@@ -86,9 +91,11 @@ class Projects extends Component {
             <Button colored link href='https://github.com/ngumina17/project3_backend'>View BackEnd GitHub</Button>
           </CardActions>
         </Card>
+        </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
+          <div>
   <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle 
             style={{
@@ -98,7 +105,7 @@ class Projects extends Component {
                 "url(https://res.cloudinary.com/drz8x4anh/image/upload/v1581964574/FL%20Logo.png) center / cover"
             }}
           >
-            FitLife
+    
           </CardTitle>
           <CardText>
                 This project was completed with 3 other group members. The front end is designed in ReactJS, the backend (REST) was formed using Express and MongoDB. We recreated some simple features of Yelp. 
@@ -108,6 +115,7 @@ class Projects extends Component {
             <Button colored link href='https://github.com/ngumina17/project4'>View GitHub</Button>
           </CardActions>
         </Card>
+        </div>
       );
     }
   }
@@ -124,14 +132,14 @@ class Projects extends Component {
           <Tab>Express/MongoDB</Tab>
           <Tab>Python/Django</Tab>
         </Tabs>
+{
 
-        <section className="projects-grid">
-          <Grid className="projects-grid">
+          <Grid>
             <Cell col={12}>
               <div className="Content">{this.toggleCategories()}</div>
             </Cell>
-          </Grid>
-        </section>
+          </Grid> }
+
       </div>
     );
   }
