@@ -22,7 +22,7 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-          <div>
+          <div className='projectBackground'> 
         <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle 
             style={{
@@ -108,7 +108,7 @@ class Projects extends Component {
     
           </CardTitle>
           <CardText>
-                This project was completed with 3 other group members. The front end is designed in ReactJS, the backend (REST) was formed using Express and MongoDB. We recreated some simple features of Yelp. 
+                This was my final project for General Assembly. I created a simple workout, goal, and meal tracker app so users can track their fitness journey.
           </CardText>
           <CardActions border>
             <Button colored link href='https://fitlifeapp17.herokuapp.com/'>View Project</Button>
@@ -132,13 +132,13 @@ class Projects extends Component {
           <Tab>Express/MongoDB</Tab>
           <Tab>Python/Django</Tab>
         </Tabs>
-{
+
 
           <Grid>
             <Cell col={12}>
               <div className="Content">{this.toggleCategories()}</div>
             </Cell>
-          </Grid> }
+          </Grid> 
 
       </div>
     );
