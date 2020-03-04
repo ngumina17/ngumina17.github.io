@@ -19,10 +19,28 @@ class Projects extends Component {
     super(props);
     this.state = { activeTab: 0 };
   }
+ 
+  render() {
+    return (
+      <div className='category-tabs'>
+        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
+          <Tab>REact</Tab>
+          <Tab>javascript</Tab>
+        </Tabs>
+  
+          <Grid className="projects-grid">
+            <Cell col={12}>
+<div className='content'>{this.toggleCategories()}</div>
+            </Cell>
+          </Grid>
+
+      </div>
+    )
+  }
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-          <div className='projectBackground'> 
+          <div className='projects-grid'> 
         <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle 
             style={{
@@ -42,11 +60,13 @@ class Projects extends Component {
             <Button colored link href='https://github.com/ngumina17/Project1Trivia'>View GitHub</Button>
           </CardActions>
         </Card>
-        </div>
+        </div> 
+
       );
+
     } else if (this.state.activeTab === 1) {
       return (
-          <div>
+          <div className="projects-grid">
   <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle 
             style={{
@@ -121,7 +141,7 @@ class Projects extends Component {
   }
   render() {
     return (
-      <div className="category-tabs">
+       <div className="category-tabs"> 
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
@@ -140,9 +160,8 @@ class Projects extends Component {
             </Cell>
           </Grid> 
 
-      </div>
+      </div> 
     );
   }
 }
-
 export default Projects;
