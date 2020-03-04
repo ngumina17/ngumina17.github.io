@@ -13,6 +13,7 @@ import {
   Button
 } from "react-mdl";
 import '../App.css'
+import {RemoveScrollBar, zeroRightClassName} from 'react-remove-scroll-bar';
 
 class Projects extends Component {
   constructor(props) {
@@ -56,8 +57,8 @@ class Projects extends Component {
                 A simple trivia game on sustainability using HTML, CSS, and Javascript.
           </CardText>
           <CardActions border>
-            <Button colored link href='https://ngumina17.github.io/Project1Trivia/'>View Project</Button>
-            <Button colored link href='https://github.com/ngumina17/Project1Trivia'>View GitHub</Button>
+            <Button colored link href='https://ngumina17.github.io/Project1Trivia/' target="_blank">View Project</Button>
+            <Button colored link href='https://github.com/ngumina17/Project1Trivia' target="_blank">View GitHub</Button>
           </CardActions>
         </Card>
         </div> 
@@ -82,15 +83,15 @@ class Projects extends Component {
                 An app using ReactJS pulling data from themealdb public API. Users are taken to the original source for the recipe. 
           </CardText>
           <CardActions border>
-            <Button colored link href='https://elegant-hamilton-283035.netlify.com/'>View Project</Button>
-            <Button colored link href='https://github.com/ngumina17/project2'>View GitHub</Button>
+            <Button colored link href='https://elegant-hamilton-283035.netlify.com/' target="_blank">View Project</Button>
+            <Button colored link href='https://github.com/ngumina17/project2' target="_blank">View GitHub</Button>
           </CardActions>
         </Card>
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
-          <div>
+          <div className="projects-grid">
   <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle 
             style={{
@@ -106,16 +107,16 @@ class Projects extends Component {
                 This project was completed with 3 other group members. The front end is designed in ReactJS, the backend (REST) was formed using Express and MongoDB. We recreated some simple features of Yelp. 
           </CardText>
           <CardActions border>
-            <Button colored link href='https://yelprestaurants.netlify.com'>View Project</Button>
-            <Button colored link href='https://github.com/ngumina17/Yelp_frontend'>View GitHub</Button>
-            <Button colored link href='https://github.com/ngumina17/project3_backend'>View BackEnd GitHub</Button>
+            <Button colored link href='https://yelprestaurants.netlify.com' target="_blank">View Project</Button>
+            <Button colored link href='https://github.com/ngumina17/Yelp_frontend' target="_blank">View GitHub</Button>
+            <Button colored link href='https://github.com/ngumina17/project3_backend' target="_blank">View BackEnd GitHub</Button>
           </CardActions>
         </Card>
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
-          <div>
+          <div className="projects-grid">
   <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle 
             style={{
@@ -131,8 +132,8 @@ class Projects extends Component {
                 This was my final project for General Assembly. I created a simple workout, goal, and meal tracker app so users can track their fitness journey.
           </CardText>
           <CardActions border>
-            <Button colored link href='https://fitlifeapp17.herokuapp.com/'>View Project</Button>
-            <Button colored link href='https://github.com/ngumina17/project4'>View GitHub</Button>
+            <Button colored link href='https://fitlifeapp17.herokuapp.com/' target="_blank">View Project</Button>
+            <Button colored link href='https://github.com/ngumina17/project4' target="_blank">View GitHub</Button>
           </CardActions>
         </Card>
         </div>
