@@ -27,6 +27,7 @@ text-align: center;
 background-size: cover;
  height: 100%;  
  width: 100%;
+ padding-top: 50px;
 
 }
 
@@ -154,4 +155,19 @@ Contact page css */
   background: #DAE2F8;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Resume page CSS */
+.resume-right-col {
+  color: black;
+  background-size: cover;
+   height: 100%;  
+   width: 100%;
+   padding-left: 200px;
+}
+
+.resume-grid {
+  position: fixed;
+  justify-content: space-between;
+
 }
