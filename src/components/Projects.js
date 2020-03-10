@@ -150,7 +150,7 @@ class Projects extends Component {
         >
           <Tab>HTML/CSS/JavaScript</Tab>
           <Tab>ReactJS</Tab>
-          <Tab>Express/MongoDB</Tab>
+          <Tab>MongoDB/Express/React/Node</Tab>
           <Tab>Python/Django</Tab>
         </Tabs>
 

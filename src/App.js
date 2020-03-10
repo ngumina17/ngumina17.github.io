@@ -11,18 +11,18 @@ class App extends Component {
     return (
 <div style={{height: '300px', position: 'relative'}}>
     <Layout fixedHeader>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Home</Link>} scroll>
             <Navigation>
                 <Link to="/Resume">Resume</Link>
-                <Link to="/about">About Me</Link>
+                {/* <Link to="/about">About Me</Link> */}
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title" className="title">
+        <Drawer title="Nicole Gumina" className="title">
             <Navigation>
                 <Link to="/Resume">Resume</Link>
-                <Link to="/about">About Me</Link>
+                {/* <Link to="/about">About Me</Link> */}
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
             </Navigation>

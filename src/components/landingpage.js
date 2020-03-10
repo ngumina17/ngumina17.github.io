@@ -19,11 +19,12 @@ class landingPage extends Component {
 
                             <hr/>
 
-                        <p>HTML/CSS | Bootstrap | JavaScript | ReactJS | NodeJS | Express | MongoDB | Python | Django</p>
+                        <p>HTML | CSS | PostgreSQL | JavaScript | ReactJS | NodeJS | Express | MongoDB | Python | Django | Git
+                        </p>
                         <div className="social-links">
 
                             {/* Linkedin */}
-                            <a href="www.linkedin.com/in/nicolegumina-327211132" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/nicolegumina-327211132" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-linkedin-square"  aria-hidden="true" />
                             </a>
                               {/* GitHub */}
