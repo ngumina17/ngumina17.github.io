@@ -57,7 +57,7 @@ class Projects extends Component {
                 A simple trivia game on sustainability using HTML, CSS, and Javascript.
           </CardText>
           <CardActions border>
-            <Button colored link href='https://ngumina17.github.io/Project1Trivia/' target="_blank">View Project</Button>
+            <Button colored link href='https://ngumina17.github.io/Project1Trivia/' target="_blank">Deployed App</Button>
             <Button colored link href='https://github.com/ngumina17/Project1Trivia' target="_blank">View GitHub</Button>
           </CardActions>
         </Card>
@@ -74,7 +74,7 @@ class Projects extends Component {
               color: "black",
               height: "176px",
               background:
-                "url(https://res.cloudinary.com/drz8x4anh/image/upload/v1583279880/Screen_Shot_2020-03-03_at_5.57.46_PM_orolrg.png) center / cover"
+                "url(https://res.cloudinary.com/drz8x4anh/image/upload/v1583933181/Screen_Shot_2020-03-11_at_8.24.26_AM_qn2plw.png) center / cover"
             }}
           >
     
@@ -83,7 +83,7 @@ class Projects extends Component {
                 An app using ReactJS pulling data from themealdb public API. Users are taken to the original source for the recipe. 
           </CardText>
           <CardActions border>
-            <Button colored link href='https://elegant-hamilton-283035.netlify.com/' target="_blank">View Project</Button>
+            <Button colored link href='https://elegant-hamilton-283035.netlify.com/' target="_blank">Deployed App</Button>
             <Button colored link href='https://github.com/ngumina17/project2' target="_blank">View GitHub</Button>
           </CardActions>
         </Card>
@@ -107,8 +107,8 @@ class Projects extends Component {
                 This project was completed with 3 other group members. The front end is designed in ReactJS, the backend (REST) was formed using Express and MongoDB. We recreated some simple features of Yelp. 
           </CardText>
           <CardActions border>
-            <Button colored link href='https://yelprestaurants.netlify.com' target="_blank">View Project</Button>
-            <Button colored link href='https://github.com/ngumina17/Yelp_frontend' target="_blank">View GitHub</Button>
+            <Button colored link href='https://yelprestaurants.netlify.com' target="_blank">Deployed App </Button>
+            <Button colored link href='https://github.com/ngumina17/Yelp_frontend' target="_blank">View Frontend GitHub</Button>
             <Button colored link href='https://github.com/ngumina17/project3_backend' target="_blank">View BackEnd GitHub</Button>
           </CardActions>
         </Card>
@@ -132,7 +132,7 @@ class Projects extends Component {
                 This was my final project for General Assembly. I created a simple workout, goal, and meal tracker app so users can track their fitness journey.
           </CardText>
           <CardActions border>
-            <Button colored link href='https://fitlifeapp17.herokuapp.com/' target="_blank">View Project</Button>
+            <Button colored link href='https://fitlifeapp17.herokuapp.com/' target="_blank">Deployed App</Button>
             <Button colored link href='https://github.com/ngumina17/project4' target="_blank">View GitHub</Button>
           </CardActions>
         </Card>
