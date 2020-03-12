@@ -14,7 +14,7 @@ class Resume extends Component {
                         has taught me the importance of being detail oriented and has given me the ability to adopt a new role at any time. 
                     </p>
             </Cell>
-            <Cell className='resume-right-col' style={{paddingLeft: '100px', fontSize: '22px', paddingTop: '25px'}} col={6}>Click <a href="https://drive.google.com/open?id=17jhaxA6PqvEtICmk2XIzKjUPX0YeTSLn" target="_blank">here</a> to get taken to my resume! </Cell>
+            <Cell className='resume-right-col' style={{paddingLeft: '100px', fontSize: '22px', paddingTop: '25px'}} col={6}>Click <a href="https://drive.google.com/open?id=1aC5Lrtoau_AYVFGec8uc4L94de6MeAnZ" target="_blank">here</a> to get taken to my resume! </Cell>
         </Grid>
     </div>
     )
